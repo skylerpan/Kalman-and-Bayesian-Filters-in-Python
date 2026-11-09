@@ -15,7 +15,9 @@
 
 ## 如何執行
 
-本翻譯版可以直接用系統的 Python 執行，不需要 docker，也不需要 venv 或 conda 環境：
+本翻譯版可以直接用系統的 Python 執行，不需要 docker，也不需要 venv 或 conda 環境。若想用獨立的 venv 環境（建議，避免與其他專案互相干擾），請見 [docs/venv-setup.md](./docs/venv-setup.md)。
+
+直接用系統 Python：
 
 ```
 pip3 install --user -r requirements.txt
